@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <title>{{ $pageTitle }}</title>
     @vite('resources/sass/app.scss')
 </head>
-<body>
+<body> --}}
     @extends('layouts.app')
 
 @section('content')
@@ -50,8 +50,10 @@
             </table>
         </div>
     </div>
-@endsection
 
     @vite('resources/js/app.js')
+@endsection
+
+    {{-- @vite('resources/js/app.js')
 </body>
-</html>
+</html> --}}

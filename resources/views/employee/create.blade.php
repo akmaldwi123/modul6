@@ -8,7 +8,7 @@
     @vite('resources/sass/app.scss')
 </head>
 <body>
-    @extends('layouts.app')
+@extends('layouts.app')
 
 @section('content')
     <div class="container-sm my-5">
@@ -21,7 +21,7 @@
     </div>
 
 
-    @include('layouts.nav')
+
 
     <div class="container-sm mt-5">
         <form action="{{ route('employees.store') }}" method="POST">
